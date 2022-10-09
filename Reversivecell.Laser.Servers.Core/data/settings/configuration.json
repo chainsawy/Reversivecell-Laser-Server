@@ -1,0 +1,8 @@
+{
+  "battle_server": "192.168.0.108",
+  "database": {
+    "url": "127.0.0.1",
+    "user": "Administrator",
+    "passwd": "123456"
+  }
+}

@@ -1,0 +1,27 @@
+﻿namespace Reversedcell.Magic.Logic.Data
+{
+    using Reversedcell.Magic.Titan.CSV;
+
+    public class #NAME# : LogicData
+    {
+#MEMBERS#
+
+        /// <summary>
+        ///     Initializes a new instance of the <see cref="#NAME#" /> class.
+        /// </summary>
+        public #NAME#(CSVRow row, LogicDataTable table) : base(row, table)
+        {
+            // #NAME#.
+        }
+
+        /// <summary>
+        ///     Called when all instances has been loaded for initialized members in instance.
+        /// </summary>
+        public override void CreateReferences()
+        {
+#INIT_MEMBERS#
+        }
+		
+#METHODS#
+    }
+}
